@@ -2,9 +2,10 @@
 
 <p>
 This programm uses api from <a href="https://fortnite-api.com">fortnite-api.com</a>
+<br>
 You can make a ui for this project
 </p>
 
 <h2>Screenshot</h2>
-<img src="https://imgur.com/a/U8y5SkZ">
+<img src="https://i.imgur.com/akJqXcC.png">
 
