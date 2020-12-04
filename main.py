@@ -8,7 +8,7 @@ request = requests.get('https://fortnite-api.com/v2/shop/br').json()
 
 for i in range(3):
     entries_v = len(request['data'][items_type[i]]['entries'])
-    print(items_type_n[i], end='\n----------\n')
+    print(items_type_n[i], end=' (' + str(entries_v) + ')' + '\n----------\n')
     for i_1 in range(entries_v):
         items_v = len(request['data'][items_type[i]]['entries'][i_1]['items'])
         try:
